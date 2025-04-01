@@ -65,14 +65,14 @@ class Student():
     def __del__(self):
         Student.number_Student -= 1 # her nesne silindiğinde number_Student değeri bir azalacak
 
-st1 = Student("Zeyd",202302009024)
-st2 = Student("Kadir",202302009102)
+st1 = Student("Efe",2023021)
+st2 = Student("Kadir",2023020)
 
 
 print(Student.number_Student)
 del st2
 print(Student.number_Student)
-st3 = Student("Mahmud", 384294328764)
+st3 = Student("Eren", 3842943)
 del st3
 print(Student.number_Student)
 """
