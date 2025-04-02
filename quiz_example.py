@@ -145,5 +145,5 @@ bnk1.kalan_para()
 bnk1.para_yatir(123456)
 bnk1.para_cek(24323)
 bnk1.kalan_para()
-bnk1.havale(1234, "Zeyd")
+bnk1.havale(1234, "Efe")
 bnk1.kalan_para()"""
