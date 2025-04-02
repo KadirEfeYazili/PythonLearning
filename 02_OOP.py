@@ -157,8 +157,12 @@ class A:
         self.public="I am public" # acik veri
         self._protect="I am protected" # yari gizli veri
         self.__private="I am private" # tamamen gizli veri
+
+    def get_private(self):
+        return self.__private
 a=A()
 print(a.public)
 print(a._protect)
+print(a.get_private())
 #print(a.__private) #AttributeError: 'A' object has no attribute '__private'.
 #Peki gizli veriye nasıl erişiriz ?
